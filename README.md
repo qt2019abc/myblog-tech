@@ -9,6 +9,7 @@
 - [Midscene AI 驱动的 UI 自动化测试](ai/Midscene%20AI%20%E9%A9%B1%E5%8A%A8%E7%9A%84UI%20%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95.md)
 - [OpenClaw 使用指南](ai/OpenClaw_%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.md)
 - [一种 RAG 评价指标介绍](ai/%E4%B8%80%E7%A7%8DRAG%E8%AF%84%E4%BB%B7%E6%8C%87%E6%A0%87%E4%BB%8B%E7%BB%8D.md)
+- [如何写好一个 Skill：从创建到迭代的最佳实践](ai/%E5%A6%82%E4%BD%95%E5%86%99%E5%A5%BD%E4%B8%80%E4%B8%AA%20Skill%EF%BC%9A%E4%BB%8E%E5%88%9B%E5%BB%BA%E5%88%B0%E8%BF%AD%E4%BB%A3%E7%9A%84%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5.md)
 
 ### 🚀 DevOps
 - [Dockerfile 编写注意要点](devops/Dockerfile%E7%BC%96%E5%86%99%E6%B3%A8%E6%84%8F%E8%A6%81%E7%82%B9.md)
