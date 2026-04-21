@@ -14,6 +14,7 @@
 ### 🚀 DevOps
 - [Dockerfile 编写注意要点](devops/Dockerfile%E7%BC%96%E5%86%99%E6%B3%A8%E6%84%8F%E8%A6%81%E7%82%B9.md)
 - [本地 PyPI 私服搭建方法](devops/%E6%9C%AC%E5%9C%B0pypi%E7%A7%81%E6%9C%81%E6%90%AD%E5%BB%BA%E6%96%B9%E6%B3%95.md)
+- [服务器 Docker 配置代理拉取镜像方法](devops/%E6%9C%AC%E5%8A%A1%E5%99%A8docker%E9%85%8D%E7%BD%AE%E4%BB%A3%E7%90%86%E6%8B%89%E5%8F%96%E9%95%AC%E5%83%8F%E6%96%B9%E6%B3%95.md)
 
 ### 🛡️ 灾备建设 (Disaster Recovery)
 - [灾备建设 - 容灾标准级别的定义和各级别之间的主要区别](disaster-recovery/%E7%81%BE%E5%A4%87%E5%BB%BA%E8%AE%BE-%E5%AE%B9%E7%81%BE%E6%A0%87%E5%87%86%E7%BA%A7%E5%88%AB%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E5%90%84%E7%BA%A7%E5%88%AB%E4%B9%8B%E9%97%B4%E7%9A%84%E4%B8%BB%E8%A6%81%E5%8C%BA%E5%88%AB.md)
