@@ -24,6 +24,7 @@
 
 ### 🔐 安全 (Security)
 - [OTP 一次性密码技术](security/OTP%20%E4%B8%80%E6%AC%A1%E6%80%A7%E5%AF%86%E7%A0%81%E6%8A%80%E6%9C%AF.md)
+- [Trivy 容器镜像漏洞扫描：国内环境常见问题与完整解决方案](security/Trivy%20%E5%AE%B9%E5%99%A8%E9%95%9C%E5%83%8F%E6%BC%8F%E6%B4%9E%E6%81%AB%E6%8F%8F%EF%BC%9A%E5%9B%BD%E5%86%85%E7%8E%AF%E5%A2%83%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E4%B8%8E%E5%AE%8C%E6%95%B4%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.md)
 
 ---
 © 2026
