@@ -27,13 +27,17 @@ Environment="NO_PROXY=localhost,127.0.0.1,::1"
 ## 3.  重新加载 systemd 并重启 Docker：
 
 ```
-sudo systemctl daemon-reloadsudo systemctl restart docker
+sudo systemctl daemon-reload
+sudo systemctl restart docker
 ```
 
 ## 4.  验证代理是否生效：
 
 ```
-sudo systemctl show --property=Environment docker # output:Environment=HTTP_PROXY=http://192.168.21.41:7897 HTTPS_PROXY=http://192.168.21.41:7897 NO_PROXY=localhost,127.0.0.1,::1
+sudo systemctl show --property=Environment docker
+
+# output:
+Environment=HTTP_PROXY=http://192.168.21.41:7897 HTTPS_PROXY=http://192.168.21.41:7897 NO_PROXY=localhost,127.0.0.1,::1
 ```
 
 ## 5.  再次拉取镜像
