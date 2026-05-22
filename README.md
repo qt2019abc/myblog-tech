@@ -6,6 +6,7 @@
 
 ### 🤖 人工智能 (AI)
 - [AI Code Review GitLab 和 AI IDE 一体化落地方案](ai/AI%20Code%20Review%20GitLab%20%E5%92%8C%20AI%20IDE%20%E4%B8%80%E4%BD%93%E5%8C%96%E8%90%BD%E5%9C%B0%E6%96%B9%E6%A1%88.md)
+- [企业知识库问答 AI Eval 系统设计与落地](ai/%E4%BC%81%E4%B8%9A%E7%9F%A5%E8%AF%86%E5%BA%93%E9%97%AE%E7%AD%94%20AI%20Eval%20%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E4%B8%8E%E8%90%BD%E5%9C%B0.md)
 - [Midscene AI 驱动的 UI 自动化测试](ai/Midscene%20AI%20%E9%A9%B1%E5%8A%A8%E7%9A%84UI%20%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95.md)
 - [OpenClaw 运维和升级指南](ai/OpenClaw%20%E8%BF%90%E7%BB%B4%E5%92%8C%E5%8D%87%E7%BA%A7%E6%8C%87%E5%8D%97.md)
 - [OpenClaw 使用指南](ai/OpenClaw_%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.md)
