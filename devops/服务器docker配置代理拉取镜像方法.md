@@ -14,7 +14,8 @@ sudo mkdir -p /etc/systemd/system/docker.service.d
 ```
 sudo vim /etc/systemd/system/docker.service.d/http-proxy.conf # 写入以下内容（替换成你的真实代理地址）：
 
-[Service]Environment="HTTP_PROXY=http://your-proxy-ip:port"
+[Service]
+Environment="HTTP_PROXY=http://your-proxy-ip:port"
 Environment="HTTPS_PROXY=http://your-proxy-ip:port"
 Environment="NO_PROXY=localhost,127.0.0.1,::1"
 ```

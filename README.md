@@ -15,6 +15,7 @@
 - [如何写好一个 Skill：从创建到迭代的最佳实践](ai/%E5%A6%82%E4%BD%95%E5%86%99%E5%A5%BD%E4%B8%80%E4%B8%AA%20Skill%EF%BC%9A%E4%BB%8E%E5%88%9B%E5%BB%BA%E5%88%B0%E8%BF%AD%E4%BB%A3%E7%9A%84%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5.md)
 
 ### 🚀 DevOps
+- [容器化应用接入 SigNoz 可观测平台实践](devops/%E5%AE%B9%E5%99%A8%E5%8C%96%E5%BA%94%E7%94%A8%E6%8E%A5%E5%85%A5%20SigNoz%20%E5%8F%AF%E8%A7%82%E6%B5%8B%E5%B9%B3%E5%8F%B0%E5%AE%9E%E8%B7%B5.md)
 - [Dockerfile 编写注意要点](devops/Dockerfile%E7%BC%96%E5%86%99%E6%B3%A8%E6%84%8F%E8%A6%81%E7%82%B9.md)
 - [本地 PyPI 私服搭建方法](devops/%E6%9C%AC%E5%9C%B0pypi%E7%A7%81%E6%9C%81%E6%90%AD%E5%BB%BA%E6%96%B9%E6%B3%95.md)
 - [服务器 Docker 配置代理拉取镜像方法](devops/%E6%9C%AC%E5%8A%A1%E5%99%A8docker%E9%85%8D%E7%BD%AE%E4%BB%A3%E7%90%86%E6%8B%89%E5%8F%96%E9%95%AC%E5%83%8F%E6%96%B9%E6%B3%95.md)
