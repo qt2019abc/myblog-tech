@@ -21,6 +21,11 @@
 - [本地 PyPI 私服搭建方法](devops/%E6%9C%AC%E5%9C%B0pypi%E7%A7%81%E6%9C%81%E6%90%AD%E5%BB%BA%E6%96%B9%E6%B3%95.md)
 - [服务器 Docker 配置代理拉取镜像方法](devops/%E6%9C%AC%E5%8A%A1%E5%99%A8docker%E9%85%8D%E7%BD%AE%E4%BB%A3%E7%90%86%E6%8B%89%E5%8F%96%E9%95%AC%E5%83%8F%E6%96%B9%E6%B3%95.md)
 
+### 🧱 大数据 (Big Data)
+- [HBase 备份和恢复方法说明](bigdata/HBase%20%E5%A4%87%E4%BB%BD%E5%92%8C%E6%81%A2%E5%A4%8D%E6%96%B9%E6%B3%95%E8%AF%B4%E6%98%8E.md)
+- [Hive 备份和恢复方法说明](bigdata/Hive%20%E5%A4%87%E4%BB%BD%E5%92%8C%E6%81%A2%E5%A4%8D%E6%96%B9%E6%B3%95%E8%AF%B4%E6%98%8E.md)
+- [Hive 入门使用指南](bigdata/Hive%20%E5%85%A5%E9%97%A8%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.md)
+
 ### 🛡️ 灾备建设 (Disaster Recovery)
 - [MinIO 对象存储高级特性及其在备份容灾中的应用](disaster-recovery/MinIO%20%E5%AF%B9%E8%B1%A1%E5%AD%98%E5%82%A8%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7%E5%8F%8A%E5%85%B6%E5%9C%A8%E5%A4%87%E4%BB%BD%E5%AE%B9%E7%81%BE%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8.md)
 - [灾备建设 - 容灾标准级别的定义和各级别之间的主要区别](disaster-recovery/%E7%81%BE%E5%A4%87%E5%BB%BA%E8%AE%BE-%E5%AE%B9%E7%81%BE%E6%A0%87%E5%87%86%E7%BA%A7%E5%88%AB%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E5%90%84%E7%BA%A7%E5%88%AB%E4%B9%8B%E9%97%B4%E7%9A%84%E4%B8%BB%E8%A6%81%E5%8C%BA%E5%88%AB.md)
