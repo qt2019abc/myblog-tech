@@ -23,6 +23,7 @@
 
 ### 🧱 大数据 (Big Data)
 - [HBase 备份和恢复方法说明](bigdata/HBase%20%E5%A4%87%E4%BB%BD%E5%92%8C%E6%81%A2%E5%A4%8D%E6%96%B9%E6%B3%95%E8%AF%B4%E6%98%8E.md)
+- [HDFS 命令行常用命令说明](bigdata/HDFS%20%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E8%AF%B4%E6%98%8E.md)
 - [Hive 备份和恢复方法说明](bigdata/Hive%20%E5%A4%87%E4%BB%BD%E5%92%8C%E6%81%A2%E5%A4%8D%E6%96%B9%E6%B3%95%E8%AF%B4%E6%98%8E.md)
 - [Hive 入门使用指南](bigdata/Hive%20%E5%85%A5%E9%97%A8%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.md)
 
