@@ -30,6 +30,7 @@
 - [Hive 入门使用指南](bigdata/Hive%20%E5%85%A5%E9%97%A8%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.md)
 
 ### 🛡️ 灾备建设 (Disaster Recovery)
+- [Linux 使用 iSCSI 挂载远端 LUN 并恢复数据](disaster-recovery/Linux%20%E4%BD%BF%E7%94%A8%20iSCSI%20%E6%8C%82%E8%BD%BD%E8%BF%9C%E7%AB%AF%20LUN%20%E5%B9%B6%E6%81%A2%E5%A4%8D%E6%95%B0%E6%8D%AE.md)
 - [MinIO 对象存储高级特性及其在备份容灾中的应用](disaster-recovery/MinIO%20%E5%AF%B9%E8%B1%A1%E5%AD%98%E5%82%A8%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7%E5%8F%8A%E5%85%B6%E5%9C%A8%E5%A4%87%E4%BB%BD%E5%AE%B9%E7%81%BE%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8.md)
 - [灾备建设 - 容灾标准级别的定义和各级别之间的主要区别](disaster-recovery/%E7%81%BE%E5%A4%87%E5%BB%BA%E8%AE%BE-%E5%AE%B9%E7%81%BE%E6%A0%87%E5%87%86%E7%BA%A7%E5%88%AB%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E5%90%84%E7%BA%A7%E5%88%AB%E4%B9%8B%E9%97%B4%E7%9A%84%E4%B8%BB%E8%A6%81%E5%8C%BA%E5%88%AB.md)
 
