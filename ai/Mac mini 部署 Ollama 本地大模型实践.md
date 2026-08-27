@@ -338,7 +338,60 @@ http://<mac-mini-ip>:11434/v1
 
 如果客户端支持 OpenAI compatible API，可以把 Base URL 设置为上述地址，并将模型名填写为 `ollama list` 中看到的名称。
 
-## 十、安全配置
+
+## 十、新增OLLAMA配置参数
+
+例如：添加环境变量 OLLAMA_KEEP_ALIVE:24h
+
+使用的是 Homebrew 的 launchd 服务，直接在该 plist 的 `EnvironmentVariables` 下添加即可。
+
+```
+PLIST=/Users/tom/Library/LaunchAgents/homebrew.mxcl.ollama.plist
+
+cp "$PLIST" "$PLIST.bak"
+
+/usr/libexec/PlistBuddy \
+  -c 'Add :EnvironmentVariables:OLLAMA_KEEP_ALIVE string 24h' \
+  "$PLIST"
+
+plutil -lint "$PLIST"
+```
+
+若该键已存在而需更新，改用：
+
+```
+/usr/libexec/PlistBuddy \
+  -c 'Set :EnvironmentVariables:OLLAMA_KEEP_ALIVE 24h' \
+  /Users/tom/Library/LaunchAgents/homebrew.mxcl.ollama.plist
+```
+
+重新加载服务使配置生效：
+
+```
+launchctl bootout gui/$(id -u) "$PLIST"
+launchctl bootstrap gui/$(id -u) "$PLIST"
+```
+
+验证 launchd job 已读到变量：
+
+```
+launchctl print gui/$(id -u)/homebrew.mxcl.ollama \
+  | grep -A 8 -B 2 OLLAMA_KEEP_ALIVE
+```
+
+再预热并检查模型保活时间：
+
+```
+curl -s http://127.0.0.1:11434/api/generate \
+  -d '{"model":"qwen3.5:9b","keep_alive":"24h"}' >/dev/null
+
+ollama ps
+```
+
+`UNTIL` 应显示约 `24 hours from now`，而非 4 分钟。
+
+注意：Homebrew 升级、重装或再次 `brew services restart ollama` 时，可能重建 `homebrew.mxcl.ollama.plist` 并覆盖手工改动；届时需检查并重新加入该环境变量。
+## 十一、安全配置
 
 Ollama API 默认没有账号、Token 或访问控制。设置 `OLLAMA_HOST=0.0.0.0:11434` 后，所有能访问该地址的局域网设备都可能调用模型。
 
@@ -364,7 +417,7 @@ http://127.0.0.1:11434
 - 不要把 SSH 用户、真实 IP、反向代理账号密码写入公开文档。
 - 对多人共用场景增加认证、审计和调用配额。
 
-## 十一、运维与故障排查
+## 十二、运维与故障排查
 
 检查服务：
 
@@ -406,7 +459,7 @@ tail -n 200 /opt/homebrew/var/log/ollama.log
 - 是否有多个客户端并发请求。
 - Mac mini 是否出现内存压力或大量 swap。
 
-## 十二、部署验收清单
+## 十三、部署验收清单
 
 完成部署后建议逐项验收：
 
@@ -420,7 +473,7 @@ tail -n 200 /opt/homebrew/var/log/ollama.log
 - Mac mini 重启后 Ollama 服务能够自动恢复。
 - API 地址、模型名称和安全访问方式已经记录在内部文档中。
 
-## 十三、总结
+## 十四、总结
 
 Mac mini 部署 Ollama 的关键不在安装本身，而在几个实践细节：固定内网地址、确认 Metal GPU 加速、控制模型大小和上下文长度、正确开放局域网 API，并补上访问控制。
 
